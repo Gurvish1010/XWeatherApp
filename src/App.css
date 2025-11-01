@@ -1,0 +1,37 @@
+.app{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.search button{
+  padding: 9px;
+  font-size: 18px; 
+  border-radius: 8px;
+}
+.search input{
+  margin: 5px;
+  padding: 10px;
+}
+
+.search{
+  margin-top: 50px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cards{
+  border: 1px solid white;
+  padding: 15px;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 20px;
+  width: 200px;
+}
