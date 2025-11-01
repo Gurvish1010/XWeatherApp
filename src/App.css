@@ -19,14 +19,14 @@
 .search{
   margin-top: 50px;
 }
-.weather-card{
+.weather-cards{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.weather-cards{
+.weather-card{
   border: 1px solid white;
   padding: 15px;
   color: black;

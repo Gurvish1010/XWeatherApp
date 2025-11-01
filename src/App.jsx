@@ -46,20 +46,20 @@ function App() {
       {loading&& <p>Loading data...</p>}
       {error && !loading && <p>Failed to fetch weather data</p>}
       {weatherData&&!loading&&(
-        <div className="weather-card">
-          <div className="weather-cards">
+        <div className="weather-cards">
+          <div className="weather-card">
             <h3>Temperature</h3>
             <p>{weatherData.current.temp_c}°C</p>
           </div>
-          <div className="weather-cards">
+          <div className="weather-card">
             <h3>Humidity</h3>
             <p>{weatherData.current.humidity}%</p>
           </div>
-          <div className="weather-cards">
+          <div className="weather-card">
             <h3>Condition</h3>
             <p>{weatherData.current.condition.text}</p>
           </div>
-          <div className="weather-cards">
+          <div className="weather-card">
             <h3>Wind Speed</h3>
             <p>{weatherData.current.wind_kph}kph</p>
           </div>
